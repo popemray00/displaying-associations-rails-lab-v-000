@@ -4,7 +4,6 @@ class ArtistsController < ApplicationController
   end
 
   def show
-    @artist = Artist.find_by(params[:id])
   end
 
   def new
